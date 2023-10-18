@@ -9,9 +9,9 @@
 &FORCE_EVAL
   METHOD Quickstep
   &DFT
-    BASIS_SET_FILE_NAME  /scratch/hpc-prf-eprop2d/eprop2d1_Jan/08_develop_new_GW/08_MoS2/45_for_tutorial/BASIS_PERIODIC_GW
+    BASIS_SET_FILE_NAME  BASIS_PERIODIC_GW
     SORT_BASIS EXP
-    POTENTIAL_FILE_NAME  /pc2/groups/hpc-prf-eprop2d/eprop2d1_Jan/02_compile_CP2K/20_CP2K_kp_extrapol_only_first_i_omega/cp2k/data/GTH_SOC_POTENTIALS
+    POTENTIAL_FILE_NAME  GTH_SOC_POTENTIALS
     CHARGE 0
     &MGRID
       CUTOFF  500
